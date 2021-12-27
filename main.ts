@@ -39,5 +39,6 @@ OLED.init(128, 64)
 OLED.clear()
 let water_level = Environment.ReadWaterLevel(AnalogPin.P1)
 basic.forever(function () {
+    OLED.clear()
     Version2()
 })
