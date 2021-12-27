@@ -7,6 +7,7 @@ function Version2 () {
         OLED.newLine()
         basic.pause(1000)
     }
+    OLED.clear()
     pins.analogWritePin(AnalogPin.P2, 0)
     OLED.writeStringNewLine("Stop")
     OLED.newLine()
